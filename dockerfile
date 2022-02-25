@@ -12,6 +12,7 @@ EXPOSE 3030
 RUN npm install 
 
 
+
 #COPY . .
 
 CMD npm start
