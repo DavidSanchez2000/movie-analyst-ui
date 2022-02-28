@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:12
 
 #create app directory
 WORKDIR /movie-analyst-ui
@@ -11,8 +11,7 @@ EXPOSE 3030
 RUN npm install 
 
 
-
 #COPY . .
-CMD [ "node", "/movie-analyst-ui/server.js" ]
 
 #CMD ["npm", "start"]
+CMD [ "node", "/movie-analyst-ui/server.js" ]
