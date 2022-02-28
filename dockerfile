@@ -1,8 +1,7 @@
-FROM node:12
+FROM node:12-alpine
 
 #create app directory
-WORKDIR /usr/source/app
-#WORKDIR C:\Users\davsanchez\AppData\Local\Google\Cloud SDK\Ramp-up\DevOps-Ramp-up-Frontend\movie-analyst-ui
+WORKDIR /movie-analyst-ui
 #Install app dependencies
 
 COPY . .
@@ -14,7 +13,6 @@ RUN npm install
 
 
 #COPY . .
-
-CMD npm start
+CMD [ "node", "/movie-analyst-ui/server.js" ]
 
 #CMD ["npm", "start"]
