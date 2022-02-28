@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juan-ruiz/movie-analyst-ui.git"
+    "url": "git+https://github.com/DavidSanchez2000/movie-analyst-ui"
   },
-  "author": "juan ruiz",
+  "author": "David Sanchez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/juan-ruiz/movie-analyst-ui/issues"
+    "url": "https://github.com/DavidSanchez2000/movie-analyst-ui/issues"
   },
-  "homepage": "https://github.com/juan-ruiz/movie-analyst-ui#readme",
+  "homepage": "https://github.com/DavidSanchez2000/movie-analyst-ui/#readme",
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.15.4",
